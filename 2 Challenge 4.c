@@ -10,7 +10,7 @@ int main() {
     printf("entre la valuer de c :");
     scanf("%f" , &c);
     
-    D = pow(b,2)*(4 * a * c);
+    D = pow(b,2) - (4 * a * c);
 if ( D > 0 ){
     printf( " solution 1= %.2f ", (-b + (sqrt (D)))/(2*a));
     printf( " solution 1= %.2f ", (-b - (sqrt (D)))/(2*a));
