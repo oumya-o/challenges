@@ -5,7 +5,7 @@ int main() {
   float P1 = 2 , P2 = 3 , P3 = 5 ;
   float Sum1 , SumPond , MoyennePond;
   printf("Entre number1 : ");
-  scanf("%f",&N2);
+  scanf("%f",&N1);
   printf("Entre number2 :");
   scanf("%f",&N2);
   printf("Entre number3 : ");
