@@ -5,7 +5,7 @@ int main() {
    printf("Entre la letter : ");
    scanf("%c", &L);
    
-   if ( 'A' <= L && L <= 'Z'){
+   if ( 65 <= L && L <= 90){
        printf("La letter est Majuscule");
    }else{
        printf("la lettre est Miniscule");
