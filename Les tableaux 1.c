@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 int main() {
- int Num [5]  ;
+ int Num []  = {1,2,3,4,5};
  
- for (int i =1 ; i<=5 ; i++){
-      printf ("%d\n" ,i);
+   for (int i=0 ; i<5 ; i++){
+
+          printf ("%d\n" ,Num[i]);
+ 
+}
      
- }
+ 
      
   return 0;
 }
