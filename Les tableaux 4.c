@@ -7,7 +7,7 @@ int main() {
     printf(" Combien de numbers ");
     scanf("%d", &n);
 
-    int tableau[100]; 
+    int tableau[n]; 
 
 
     printf("Entre les number :\n");
