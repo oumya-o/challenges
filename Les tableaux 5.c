@@ -26,4 +26,5 @@ int main() {
     printf("le plus petit number entre les %d numbers est : %d\n", n, Min);
 
     return 0;
+
 }
