@@ -10,7 +10,7 @@ printf("Entre les éléments :\n");
     printf ("T[%d]=",i);
       scanf ("%d",&T[i]);
   }
-  printf (" Les number on onrdre Croissant\n");
+  printf (" Les number on onrdre Inverse \n");
   for (int i = n-1 ; i >= 0; i--){
     
       printf("T[%d] = %d\n" , i, T[i]);
