@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-int   n , Multi , F;
+int   n ;
 printf ("Entre la taille de tableau :");
 scanf("%d",&n);
 int T[n];
