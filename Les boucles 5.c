@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main() {
-int  a , b , i ;
+int  a , b , i , x;
     printf ("Entre la base : ");
     scanf ("%d", &a);
     printf ("Entre l\'exposant : ");
     scanf ("%d", &b);
-    b=1;
-     for (i=0 ; i<=a ;i++) {
+    x=1;
+     for (i=1 ; i<=b ;i++) {
          
-    b=b*a;
+    x=x*a;
      
   
      }
-  printf(" %d", b );
+  printf(" %d", x );
     
     return 0;
 }
