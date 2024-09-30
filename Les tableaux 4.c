@@ -1,29 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int n, i;
-    int M;
-
-    printf(" Combien de numbers ");
-    scanf("%d", &n);
-
-    int tableau[n]; 
-
-
-    printf("Entre les number :\n");
-    for (i = 0; i < n; i++) {
-        scanf("%d", &tableau[i]);
-    }
-
-    M = tableau[0];
-
-    for (i = 1; i < n; i++) {
-        if (tableau[i] > M) {
-            M = tableau[i];
-        }
-    }
-
-    printf("le grand number entre les %d numbers est : %d\n", n, M);
-
+int   n , Tmax;
+printf (" entre la taille :");
+scanf("%d",&n);
+int T[n];
+printf("Entre les éléments :\n");
+  for (int i = 0 ; i < n; i++){
+    printf ("T[%d]=",i);
+      scanf ("%d",&T[i]);
+  }
+  Tmax = T[0];
+  for (int i = 0 ; i < n; i++){
+       if (T[i]>Tmax){
+           Tmax = T[i];
+       }
+    
+  }printf("Le max number entre les %d numbers est :%d", n ,Tmax);
     return 0;
 }
