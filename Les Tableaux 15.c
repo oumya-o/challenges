@@ -1,3 +1,4 @@
+// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
@@ -18,7 +19,7 @@ int main() {
        scanf("%d",&T2[i]);
      }
      int T3[x+n];
-       printf("les element de la 3eme tab sont :\n");
+    
   for (int i = 0; i < n; i++) {
         T3[i] = T1[i];
     }
